@@ -25,6 +25,7 @@ onMounted(() => {
       autoRotate: true,
       mode: "3d",
       rotateSpeed: 0.005,
+      limitFps: false,
       config: {
         enableZoom: true,
         stopRotateByHover: false,
