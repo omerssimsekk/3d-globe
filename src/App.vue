@@ -24,7 +24,7 @@ onMounted(() => {
       map: "world",
       autoRotate: true,
       mode: "3d",
-      rotateSpeed: 0.004,
+      rotateSpeed: 0.005,
       config: {
         enableZoom: true,
         stopRotateByHover: false,
@@ -37,7 +37,8 @@ onMounted(() => {
           },
         },
         flyLineStyle: {
-          duration: 5000,
+          duration: 3000,
+          size: 3
         },
         mapStyle: {
           lineColor: "#ffffff",
